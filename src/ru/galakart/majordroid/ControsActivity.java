@@ -1,4 +1,4 @@
-﻿package ru.galakart.majordroid;
+package ru.galakart.majordroid;
 
 import android.app.Activity;
 import android.content.SharedPreferences;

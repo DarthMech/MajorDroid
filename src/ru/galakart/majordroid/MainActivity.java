@@ -1,4 +1,4 @@
-﻿package ru.galakart.majordroid;
+package ru.galakart.majordroid;
 
 import java.util.ArrayList;
 import java.util.List;
