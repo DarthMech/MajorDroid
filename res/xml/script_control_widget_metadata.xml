@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<appwidget-provider
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:configure="ru.galakart.majordroid.widgets.control.ControlWidgetSettingsActivity"
+        android:initialLayout="@layout/script_control_widget"
+
+        android:minHeight="@dimen/control_widget_min_height"
+        android:minWidth="@dimen/control_widget_min_width"
+        android:updatePeriodMillis="1800000"
+        android:previewImage="@drawable/script_control_widget">
+</appwidget-provider>

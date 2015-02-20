@@ -65,6 +65,9 @@
     <string name="maxlenght_summary">Максимальная длительность видео-сообщения</string>    
     
 	<string name="maxsize">Размер сообщение, Мб</string>
-    <string name="maxsize_summary">Максимальный размер видео-сообщения</string>    
+    <string name="maxsize_summary">Максимальный размер видео-сообщения</string>
 
+    <string name="script_control_widget_name">Виджет для вызова скриптов</string>
+    <string name="widget_settings_activity_name">Настройка виджета</string>
+    <string name="save_settings">Сохранить настройки</string>
 </resources>
