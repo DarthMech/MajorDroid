@@ -15,8 +15,10 @@
             android:layout_height="fill_parent"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Medium Text"
-            android:layout_weight="5"
+            android:layout_weight="7"
             android:gravity="center_vertical|center_horizontal"
             android:textSize="@dimen/control_widget_script_name_text_size"
-            android:textIsSelectable="false" android:textStyle="bold" android:singleLine="false"/>
+            android:textIsSelectable="false"
+            android:textStyle="bold"
+            android:singleLine="false"/>
 </LinearLayout>

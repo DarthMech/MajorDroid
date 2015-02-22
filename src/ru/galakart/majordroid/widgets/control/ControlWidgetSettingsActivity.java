@@ -13,6 +13,7 @@ import ru.galakart.majordroid.R;
 
 import static ru.galakart.majordroid.widgets.control.ScriptControlWidget.CONTROL_WIDGET_PREF;
 import static ru.galakart.majordroid.widgets.control.ScriptControlWidget.WIDGET_SCRIPT_NAME_FIELD;
+import static ru.galakart.majordroid.widgets.control.ScriptControlWidget.updateWidget;
 
 /**
  * Created by user on 20.02.2015.
@@ -90,8 +91,9 @@ public class ControlWidgetSettingsActivity
     SharedPreferences sp = getSharedPreferences(CONTROL_WIDGET_PREF, MODE_PRIVATE);
     SharedPreferences.Editor editor = sp.edit();
     editor.putString(WIDGET_SCRIPT_NAME_FIELD + mWidgetID, scriptName);
-
     editor.commit();
+
+    updateWidget(this, AppWidgetManager.getInstance(this), mWidgetID);
 
     setResult(RESULT_OK, mResultValue);
     finish();

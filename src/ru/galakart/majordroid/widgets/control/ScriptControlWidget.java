@@ -132,7 +132,14 @@ public class ScriptControlWidget
   }
 
   // --------------------------------------------------------------------------------------------------
-  private static void updateWidget(Context aContext,  AppWidgetManager aAppWidgetManager, int aWidgetID)
+
+  /**
+   *
+   * @param aContext
+   * @param aAppWidgetManager
+   * @param aWidgetID
+   */
+  static void updateWidget(Context aContext, AppWidgetManager aAppWidgetManager, int aWidgetID)
   {
     SharedPreferences sp = aContext.getSharedPreferences(CONTROL_WIDGET_PREF, Context.MODE_PRIVATE);
 
